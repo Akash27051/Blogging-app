@@ -4,7 +4,8 @@ import axios from "axios";
 
 const app = express();
 const port = 3000;
-const API_URL = "http://localhost:4000";
+const API_URL = "https://blogging-app-8vue.onrender.com";
+// const API_URL = "http://localhost:4000";
 
 app.use(express.static("public"));
 
